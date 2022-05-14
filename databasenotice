@@ -1,0 +1,17 @@
+config-->database.php file resonsible on connect database in laravel
+
+** create table ==> php artisan make:migration create-name-table
+** refresh db ==>php artisan migrate:refresh
+any info about data type u can back to mysql manual documentation
+
+// Query builder same normal query we learn it in mysql
+1)controller resource
+queries write in index
+to fetch all data from one table use index() method in controoler
+2)write in web.php Route::resource ('name',Controller::class);
+
+ELOQUENT ORM ==>as mirror for any table in tour db
+every table has eloquent model
+
+create eloquent ==>
+php artisan make:model
